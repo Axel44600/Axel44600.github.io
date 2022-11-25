@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&family=Kavoon&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+
+/* SECTION ABOUT-ME */
+
+#about-me {
+    margin-top: 2vh;
+    width: 100%;
+    background-color: #E96268;
+    color: #FFF;
+    font-weight: 300;
+    display: flex;
+}
+
+.about-right {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.about-right .img-profil {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-image: url(/web/img/me.png);
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+
+.about-right a.btn-contact {
+    background-color: #FFF;
+    font-size: 2rem;
+    font-weight: 200;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    padding: 2%;
+    color: #E96268;
+    border-radius: 10px;
+}
+
+.about-left {
+    padding: 30px;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.about-left span.pa {
+    display: block;
+    margin: auto;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.about-left h2 {
+    font-size: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+}
+
+.about-left p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+.sect {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sqrtL1 {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: red;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .sqrtL2 {
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        background-color: red;
+    }
+
+    .sqrtL3 {
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        padding: 80px 0 80px 0;
+        background-color: red;
+    }
+
+    .logo-footer {
+        float: left; 
+        font-family: 'Kavoon'; 
+        font-size: 96px; 
+        display: block; 
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+
+    .sqrtL2 {
+        width: 50%;
+        color: #fff;
+        text-align: center;
+        background-color: red;
+    }
+
+    .sqrtL3 {
+        width: 33.3%;
+        color: #fff;
+        text-align: center;
+        padding: 80px 0 80px 0;
+        background-color: red;
+    }
+
+    .logo-footer {
+        float: left; 
+        font-family: 'Kavoon'; 
+        font-size: 96px; 
+        display: block; 
+        margin-left: 2vw;
+    }
+
+    .img-computer {
+        width: 85%;
+        height: 35em;
+        background-size: cover;
+        background-image: url(/web/img/img-computer.png);
+        border-radius: 20px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+      }
+
+    .img-contact {
+        width: 70%;
+        height: 26em;
+        background-size: cover;
+        background-image: url(/web/img/img-contact.png);
+        border-radius: 20px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+}
+
+
+.title {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#box {
+    width: 80%;
+    display: block;
+    border-radius: 20px;
+    margin: 10px auto 10px auto;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  #box .progress {
+    width: 80%;
+    display: block;
+    font-size: 1.5rem;
+    margin: 0;
+    border-radius: 20px;
+    height: 60px;
+    line-height: 58px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .icon-s1 {
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    background-image: url(/web/img/s1.png);
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
+
+  .icon-s2 {
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    background-image: url(/web/img/s2.png);
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
+
+  .icon-s3 {
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    background-image: url(/web/img/s3.png);
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
+
+  .icon-s4 {
+    width: 160px;
+    height: 190px;
+    background-size: cover;
+    background-image: url(/web/img/s4.png);
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
+
+  .icon-s5 {
+    width: 160px;
+    height: 180px;
+    background-size: cover;
+    background-image: url(/web/img/s5.png);
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
+
+  .icon-s6 {
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    background-image: url(/web/img/s6.png);
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
+
+
+  .box-works {
+    width: 80%;
+    margin: 50px auto 50px auto;
+    height: 250px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 245px;
+    font-family: 'Impact';;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+
+  .work { 
+    margin: 0 100px 0 0;
+    display: inline-block;
+  }
+
+  .box-works a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  a.btn-git {
+    background-color: #FFF;
+    font-size: 2rem;
+    font-weight: 200;
+    display: block;
+    margin: auto auto 50px auto;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.7rem;
+    width: 300px;
+    line-height: 75px;
+    height: 80px;
+    color: #E96268;
+    border-radius: 10px;
+}
+
+    .box-contact {
+        width: 80%;
+        margin: 100px auto 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 200px;
+        font-weight: 400;
+        font-size: 64px;
+        font-family: 'Impact';;
+        color: rgba(0, 0, 0, 0.7);
+        background-color: #FFF;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .icon-linkedin {
+        width: 138px;
+        height: 129px;
+        opacity: 0.7;
+        cursor: pointer;
+        background-size: cover;
+        background-image: url(/web/img/linkedin.png);
+        border-radius: 10px;
+        margin: 30px auto 30px auto;
+    }
+
+    .icon-mail {
+        width: 138px;
+        height: 129px;
+        opacity: 0.7;
+        cursor: pointer;
+        background-size: cover;
+        background-image: url(/web/img/gmail.png);
+        border-radius: 10px;
+        margin: 30px auto 30px auto;
+    }
+
+    .icon-whatsapp {
+        width: 138px;
+        height: 129px;
+        opacity: 0.7;
+        cursor: pointer;
+        background-size: cover;
+        background-image: url(/web/img/whatsapp.png);
+        border-radius: 10px;
+        margin: 30px auto 30px auto;
+    }
+
+    .txt-footer {
+        font-size: 24px; 
+        display: block; 
+        margin: 50px auto 2vh auto;
+    }
